@@ -5,7 +5,7 @@ import Drawer from "./Drawer"
 import schema from '../schema/schema.json'
 import uischema from '../uischema/uischema.json'
 import secondSchema from '../schema/secondSchema.json'
-import secondUISchema from '../uischema/secondUIschema.json'
+import secondUISchema from '../uischema/secondUISchema.json'
 
 const initialData = {
   "provideAddress": true,

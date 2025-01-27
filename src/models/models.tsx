@@ -1,7 +1,7 @@
 import schema from '../schema/schema.json'
 import secondSchema from '../schema/secondSchema.json'
 import uischema from '../uischema/uischema.json'
-import secondUISchema from '../uischema/secondUIschema.json'
+import secondUISchema from '../uischema/secondUISchema.json'
 
 export interface DrawerProps {
   title: string,
