@@ -1,10 +1,12 @@
 
+import Test from "./Test"
+
 function App() {
   
 
   return (
     <>
-      Hello world
+      <Test />
     </>
   )
 }

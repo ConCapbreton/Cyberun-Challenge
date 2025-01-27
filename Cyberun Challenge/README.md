@@ -1,5 +1,10 @@
-NNED TO USE THIS: 
+PLAN: 
+
+GET JSON FORMS WORKING USING THE CODE AT 
 https://github.com/eclipsesource/jsonforms/tree/master/packages/vanilla-renderers/src/complex/categorization
+
+THEN: 
+
 
 STEP ONE: SET UP 3 CATEGORIES WITH BASIC FORMS
 schema, a UI schema and json data (you can put these statically in your code), you have created 3 categories (tabs) and some form fields: All you need to do is base yourself on the 1st example on the page https://jsonforms.io/examples/categorization/
