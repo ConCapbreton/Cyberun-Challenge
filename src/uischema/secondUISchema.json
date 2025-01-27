@@ -1,0 +1,33 @@
+{
+    "type": "VerticalLayout",
+    "elements": [
+      {
+        "type": "Group",
+        "label": "Subcategory 1",
+        "elements": [
+          {
+            "type": "Control",
+            "scope": "#/properties/subCategory1/properties/field1"
+          },
+          {
+            "type": "Control",
+            "scope": "#/properties/subCategory1/properties/field2"
+          }
+        ]
+      },
+      {
+        "type": "Group",
+        "label": "Subcategory 2",
+        "elements": [
+          {
+            "type": "Control",
+            "scope": "#/properties/subCategory2/properties/field3"
+          },
+          {
+            "type": "Control",
+            "scope": "#/properties/subCategory2/properties/field4"
+          }
+        ]
+      }
+    ]
+  }

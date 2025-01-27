@@ -2,8 +2,10 @@ import { Layout,  theme } from 'antd';
 import { GithubFilled } from '@ant-design/icons';
 const { Header, Content, Footer, Sider } = Layout;
 import Drawer from "./Drawer"
-import schema from '../schema/shema.json'
+import schema from '../schema/schema.json'
 import uischema from '../uischema/uischema.json'
+import secondSchema from '../schema/secondSchema.json'
+import secondUiSchema from '../uischema/secondUIschema.json'
 
 const initialData = {
   "provideAddress": true,
@@ -27,7 +29,7 @@ const LayoutComp: React.FC = () => {
             <Sider style={{ background: colorBgContainer, }} width={400}>
                 <h2>Click to open forms:</h2>
                 <Drawer title="BASIC INFORMATION" schema={schema} uischema={uischema} initialData={initialData}/> 
-                <Drawer title="BASIC INFORMATION" schema={schema} uischema={uischema} initialData={initialData}/> 
+                <Drawer title="SECOND FORM" schema={secondSchema} uischema={secondUiSchema} initialData={initialData}/> 
             </Sider>
             <Content style={{ padding: '0 24px', minHeight: 300 }}></Content>
         </Layout>

@@ -1,0 +1,32 @@
+{
+    "properties": {
+      "subCategory1": {
+        "type": "object",
+        "title": "Subcategory 1",
+        "properties": {
+          "field1": {
+            "type": "string",
+            "title": "Field 1"
+          },
+          "field2": {
+            "type": "number",
+            "title": "Field 2"
+          }
+        }
+      },
+      "subCategory2": {
+        "type": "object",
+        "title": "Subcategory 2",
+        "properties": {
+          "field3": {
+            "type": "boolean",
+            "title": "Field 3"
+          },
+          "field4": {
+            "type": "string",
+            "title": "Field 4"
+          }
+        }
+      }
+    }
+  }

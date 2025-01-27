@@ -1,20 +1,22 @@
-import schema from '../schema/shema.json'
+import schema from '../schema/schema.json'
+import secondSchema from '../schema/secondSchema.json'
 import uischema from '../uischema/uischema.json'
+import secondUiSchema from '../uischema/secondUIschema.json'
 
 export interface DrawerProps {
   title: string,
-  schema: typeof schema
-  uischema: typeof uischema
-  initialData: {
+  schema: typeof schema | typeof secondSchema
+  uischema: typeof uischema | typeof secondUiSchema
+  initialData?: {
     "provideAddress": boolean,
     "vegetarian": boolean
   }
 }
 
 export interface FormProps {
-  schema: typeof schema
+  schema: typeof schema | typeof secondSchema
   uischema: typeof uischema
-  initialData: {
+  initialData?: {
     "provideAddress": boolean,
     "vegetarian": boolean
   }
