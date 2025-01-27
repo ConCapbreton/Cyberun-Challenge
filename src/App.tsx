@@ -1,13 +1,9 @@
-
-import Test from "./Test"
+import LayoutComp from "./components/Layout";
 
 function App() {
   
-
   return (
-    <>
-      <Test />
-    </>
+      <LayoutComp />
   )
 }
 
